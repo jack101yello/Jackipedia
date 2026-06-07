@@ -5,6 +5,15 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,9 +25,29 @@ jobs:
         with:
           python-version: '3.12'
 
-      - run: |
+      - name: Install dependencies
+        run: |
           pip install mkdocs-material
           pip install mkdocs-roamlinks-plugin
           pip install mkdocs-awesome-pages-plugin
           pip install mkdocs-section-index
-          mkdocs build
+          pip install pymdown-extensions
+
+      - name: Build site
+        run: mkdocs build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page.url }}
+
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
