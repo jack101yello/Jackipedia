@@ -10,6 +10,8 @@ A [[Category]] $C$ consists of the following information:
 2. A collection $\text{mor}(C)$ of morphisms, each of which has a source object and a target object.
 3. A binary operation $\circ$ on morphisms via which morphisms can be composed.
 
+Additionally, every object $c \in C$ must have at least one [[Endomorphism]] called the identity morphism $id_c$.
+
 ## The Functor
 
 A [[Functor]] $F: C \to D$ is a mapping from one category $C$ to another category $D$, such that

@@ -32,4 +32,4 @@ extra_javascript:
 
 nav:
   - Home: index.md
-  - Highlighted Page: 'Category Theory.md'
+  - Category Theory: 'Mathematics/Category Theory/Category Theory.md'
