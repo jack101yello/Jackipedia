@@ -1,4 +1,5 @@
 site_name: Jackipedia
+site_url: https://wiki.jackshudson.com
 
 theme:
   name: material
