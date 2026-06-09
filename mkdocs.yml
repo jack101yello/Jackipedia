@@ -8,7 +8,6 @@ theme:
     primary: teal
     accent: green
   features:
-    - navigation.instant
     - navigation.sections
     - search.suggest
     - search.highlight
