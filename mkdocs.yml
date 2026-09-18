@@ -17,7 +17,9 @@ plugins:
   - search
   - roamlinks
   - awesome-pages
-  - section-index
+
+not_in_nav: |
+  Under\ Construction.md
 
 markdown_extensions:
   - admonition
