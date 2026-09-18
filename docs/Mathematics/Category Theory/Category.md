@@ -6,7 +6,7 @@ A category is, in some sense, one of the most general mathematical structures po
 2. A collection $\text{mor}(C)$ of Morphisms, each of which has a source object and a target object.
 3. A binary operation $\circ$ on morphisms via which morphisms can be composed.
 
-Additionally, every object $c \in C$ must have at least one [[Endomorphism]] called the identity morphism $id_c$.
+Additionally, every object $c \in C$ must have at least one [[Endomorphism|endomorphism]] called the identity morphism $id_c$.
 
 ## Types and Examples of Categories
 
@@ -47,9 +47,9 @@ There are also many useful examples of large categories, some of which are local
 
 There are many other common examples of categories:
 
-- A category with one element (though perhaps multiple endomorphisms) is called a [[Monoid]].
-- The category $\text{Cat}$ is the category of categories, with objects categories and morphisms [[Functor]]s.
-- Every category $C$ admits an [[Opposite Category]] $C^{\text{op}}$, with the same objects, both with morphisms oriented the other direction.
+- A category with one element (though perhaps multiple endomorphisms) is called a [[Monoid|monoid]].
+- The category $\text{Cat}$ is the category of categories, with objects categories and morphisms [[Functor|functors]].
+- Every category $C$ admits an [[Opposite Category|opposite category]] $C^{\text{op}}$, with the same objects, both with morphisms oriented the other direction.
 
 ## The Representation of Groups as Categories
 

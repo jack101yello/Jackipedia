@@ -12,4 +12,4 @@ A group is special type of monoid such that every element has an inverse under t
 
 ### Monads
 
-For a [[Category]] $C$, a monoid in its category of [[Endofunctor]]s $F: C \to C$ is a [[Monad]].
+For a [[Category|category]] $C$, a monoid in its category of [[Endofunctor|endofunctors]] $F: C \to C$ is a [[Monad|monad]].

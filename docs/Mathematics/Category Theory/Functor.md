@@ -1,6 +1,6 @@
 # Functor
 
-A functor is a mapping from one [[Category]] to another.
+A functor is a mapping from one [[Category|category]] to another.
 
 In particular, a functor $F: C \to D$ for categories $C, D$ must map objects $c \in C$ to objects $Fc \in D$, and morphisms $f \in C$ to morphisms $Ff \in D$, preserving sources, targets, identities, and composition. This last fact, equivalent to the statement that for all morphisms $f, g \in C$ , $Ff \circ Fg = F(f \circ g)$, is known as the functoriality axiom.
 
@@ -8,10 +8,10 @@ In particular, a functor $F: C \to D$ for categories $C, D$ must map objects $c 
 
 There are many, many examples of functors. Some simple examples include:
 
-1. The "[[Forgetful Functor]]" $U: \text{Grp} \to \text{Set}$ which maps a group to its underlying set and group homomorphisms to their respective functions. Likewise, there is an analogous functor from $\text{Top}$ to $\text{Set}$.
-2. The fundamental group of a topological space defines a functor $\pi_1: \text{Top} \to \text{Grp}$, and the $n$-cycles $Z_n$, $n$-boundaries $B_n$, and $n$-th [[Homology]] $H_n$ all define functors from the category of chain complexes to the category of graded $R$-modules.
-3. The there a [[Free Functor]] from the category of sets to the category of groups which maps a set $X$ to the free group on $X$.
-4. There is an opposite functor $(-)^{\text{op}}: \text{Cat} \to \text{Cat}$ which maps a category to its [[Opposite Category]].
+1. The "[[Forgetful Functor|forgetful functor]]" $U: \text{Grp} \to \text{Set}$ which maps a group to its underlying set and group homomorphisms to their respective functions. Likewise, there is an analogous functor from $\text{Top}$ to $\text{Set}$.
+2. The fundamental group of a topological space defines a functor $\pi_1: \text{Top} \to \text{Grp}$, and the $n$-cycles $Z_n$, $n$-boundaries $B_n$, and $n$-th [[Homology|homology]] $H_n$ all define functors from the category of chain complexes to the category of graded $R$-modules.
+3. The there a [[Free Functor|free functor]] from the category of sets to the category of groups which maps a set $X$ to the free group on $X$.
+4. There is an opposite functor $(-)^{\text{op}}: \text{Cat} \to \text{Cat}$ which maps a category to its [[Opposite Category|opposite category]].
 
 ### Examples of the Functoriality Axiom
 
@@ -33,4 +33,4 @@ $\pi_1(r) \circ \pi(i)$ cannot be both the identity homomorphism and the trivial
 
 ## Natural Transformations
 
-A [[Natural Transformation]] is a mapping from one functor to another, sharing the same domain and codomain, subject to certain naturality constraints. The original goal of [[Category Theory]] was to study natural transformations, and categories and functors were a means by which to do so.
+A [[Natural Transformation|natural transformation]] is a mapping from one functor to another, sharing the same domain and codomain, subject to certain naturality constraints. The original goal of [[Category Theory]] was to study natural transformations, and categories and functors were a means by which to do so.

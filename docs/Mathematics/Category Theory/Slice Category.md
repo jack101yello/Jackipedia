@@ -1,6 +1,6 @@
 # Slice Category
 
-The slice category for a [[Category]] $C$ under an element $c \in C$ is the [[Category of Elements]] of the [[Hom-Set]] functor $C(c, -)$, denoted $c/C$. Likewise, the slice category of $C$ over $c$, $C/c$, is the category of elements of $C(-, c)$. The former is often called an undercategory, whereas the latter is called an overcategory.
+The slice category for a [[Category|category]] $C$ under an element $c \in C$ is the [[Category of Elements|category of elements]] of the [[Hom-Set|hom-set]] functor $C(c, -)$, denoted $c/C$. Likewise, the slice category of $C$ over $c$, $C/c$, is the category of elements of $C(-, c)$. The former is often called an undercategory, whereas the latter is called an overcategory.
 
 Let $C$ be a category and $c \in C$. The slice category $c/C$ is a category such that:
 
